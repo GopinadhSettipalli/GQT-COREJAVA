@@ -2,7 +2,6 @@
  * 
  */
 package com.gqt.corejava.patternnew;
-
 import java.util.Scanner;
 /**
  * @author Lenovo
@@ -33,7 +32,5 @@ public class NewPattern2 {
 			System.out.println();
 			sc.close();
 		}
-
 	}
-
 }
