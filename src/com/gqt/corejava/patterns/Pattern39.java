@@ -8,8 +8,7 @@ public class Pattern39 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the size:");
 		int n =sc.nextInt();
-		char start 
-		\='0';
+		char start ='0';
 		for (int i=0; i<n; i++)
 		{
 			for(int j=0; j<n-i-1;j++)
@@ -25,6 +24,7 @@ public class Pattern39 {
 				System.out.print(ch+"");
 			}
 			System.out.println();
+			sc.close();
 		}
 
 	}
